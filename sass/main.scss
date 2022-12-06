@@ -1,0 +1,21 @@
+@import "./base/base";
+@import "./base/reset";
+@import "./utils/variables";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
+/*элементы*/
+@import "./components/container";
+@import "./components/section";
+@import "./components/header";
+@import "./components/nav";
+@import "./components/logo";
+@import "./components/hero";
+@import "./components/modal";
+@import "./components/advantages";
+@import "./components/works";
+@import "./components/clients";
+@import "./components/team";
+@import "./components/footer";
+@import "./components/portfolio-buttons";
+@import "./components/portfolio-examples";

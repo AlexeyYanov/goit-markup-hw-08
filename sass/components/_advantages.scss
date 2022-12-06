@@ -1,0 +1,45 @@
+/* Section advantages*/
+
+.pattern-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantages {
+  display: flex;
+  gap: 30px;
+}
+/*эксперимент с амперсандом*/
+.advantages__title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.advantages__description {
+  line-height: 1.71;
+  color: var(--primary-text-color);
+}
+.advantages-icons-list {
+  display: flex;
+  gap: 30px;
+}
+.advantages__box {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
