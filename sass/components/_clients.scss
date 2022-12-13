@@ -1,9 +1,15 @@
 /*Section Our clients*/
 
-.our-clients__section {
-  padding: 94px, auto;
-}
+// .our-clients__section {
+//   padding: 94px, auto;
+// }
 .our-clients__title {
+  @media screen and (max-width: 1199px) {
+    font-size: 28px;
+    line-height: 1.17;
+    margin-bottom: 30px;
+  }
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -11,20 +17,48 @@
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 .clients {
-  display: flex;
-  gap: 30px;
-  padding-bottom: 94px;
+  @media screen and (min-width: 320px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+.client__item {
+  width: 210px;
+  height: 92px;
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .client__item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .client__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .client__link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 92px;
+  width: 100%;
+  height: 100%;
   border-radius: 4%;
   color: #afb1b8;
   border: solid currentColor 1px;
@@ -37,11 +71,6 @@
 .client__link:hover,
 .client__link:focus {
   color: var(--accent-color);
-}
-
-.client__item {
-  width: 170px;
-  height: 92px;
 }
 
 .client__icon:hover,

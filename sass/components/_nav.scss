@@ -5,8 +5,16 @@
 .nav {
   display: flex;
   gap: 50px;
+  margin-left: 93px;
+  @media screen and (max-width: 1199px) {
+    margin-right: 96px;
+  }
 }
-
+.nav {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
 .nav__link {
   display: block;
   color: var(--title-text-color);
