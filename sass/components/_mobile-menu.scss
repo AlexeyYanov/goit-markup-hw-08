@@ -88,8 +88,6 @@
   margin: 0;
   list-style: none;
   margin-bottom: auto;
-  text-align: left;
-  justify-items: left;
 }
 
 .mobile-menu .link {
@@ -105,7 +103,6 @@
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 .mobile-menu__item:hover,
 .mobile-menu__item:focus {
@@ -141,12 +138,12 @@
   line-height: 1.22;
 }
 .mobile-contacts-tel {
-  font-size: 24px;
+  font-size: 34px;
   color: #2196f3;
   line-height: 1.27;
   letter-spacing: 0.02em;
   text-align: left;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 .mobile-contacts-link {
   font-size: 24px;
