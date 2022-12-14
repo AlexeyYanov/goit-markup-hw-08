@@ -22,7 +22,7 @@
   @media screen and (min-width: 320px) {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    justify-content: center;
   }
   @media screen and (min-width: 768px) {
     display: flex;
@@ -48,6 +48,8 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+@media screen and (max-width: 479px) {
   .client__item:not(:last-child) {
     margin-bottom: 30px;
   }

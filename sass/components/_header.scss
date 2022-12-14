@@ -5,9 +5,12 @@
 }
 
 .header-container {
-  position: absolute;
+  // position: absolute;
   display: flex;
   align-items: center;
+  @media screen and (max-width: 767px) {
+    justify-content: space-around;
+  }
 }
 /*здесь плейсхолдер, но я не удалял его из html*/
 .address-header {
