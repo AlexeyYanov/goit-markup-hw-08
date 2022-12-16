@@ -5,6 +5,10 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--accent-color);
+  @media screen and (max-width: 767px) {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
 }
 .logo-header {
   color: #000000;
